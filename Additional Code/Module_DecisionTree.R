@@ -52,10 +52,14 @@ Decision_Tree_UI <- function(id) {
       ),
     fluidRow(
       column(6,
-             box(title = HTML("<strong>Test A</strong>"), status = "teal",width = 12, solidHeader = TRUE, icon = icon("circle-notch"), Sens_Spec_UI(ns("Test_A")))
+             box(title = HTML("<strong>Test A</strong>"), status = "teal",width = 12, solidHeader = TRUE, icon = icon("circle-notch"),
+                 Sens_Spec_UI(ns("Test_A"))
+                 )
       ),
       column(6,
-             box(title = HTML("<strong>Test B</strong>"), status = "teal",width = 12, solidHeader = TRUE, icon = icon("circle-notch"), Sens_Spec_UI(ns("Test_B")))
+             box(title = HTML("<strong>Test B</strong>"), status = "teal",width = 12, solidHeader = TRUE, icon = icon("circle-notch"),
+                 Sens_Spec_UI(ns("Test_B"))
+                 )
       )
     ),
     fluidRow(
